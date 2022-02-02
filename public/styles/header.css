@@ -1,0 +1,12 @@
+.topHeader {
+  display: flex;
+  height: 600px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ff9900;
+  color: #ffffff;
+  padding-top: 130px;
+  background-image: url(../images/cubes.png);
+}
