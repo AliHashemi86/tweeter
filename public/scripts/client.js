@@ -49,9 +49,9 @@ $(document).ready(function() {
     const tweetLength = tweet.length - 5;
 
     if (tweetLength > 140) {
-      return $(".error").html(`<p>⚠️ Characters limit exceeded!</p>`).slideDown("slow");
+      return $(".error").html(`<p>⚠️  Characters Limit Exceeded! Maximum Character: 140  ⚠️</p>`).slideDown("slow");
     } else if (tweetLength === 0) {
-      return $(".error").html(`<p>⚠️ Tweet can not be empty!</p>`).slideDown("slow");
+      return $(".error").html(`<p>⚠️  An Empty Tweet Can Not Be Tweeted!  ⚠️</p>`).slideDown("slow");
     }
 
 

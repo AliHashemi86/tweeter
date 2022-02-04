@@ -1,18 +1,56 @@
-# Tweeter Project
+# Tweeter
 
-Tweeter is a simple, single-page Twitter clone.
+Tweeter is a single-page microblogging app that allows you to share your thoughts in 140 chracters or less.
 
-This repository is the starter code for the project: Students will fork and clone this repository, then build upon it to practice their HTML, CSS, JS, jQuery and AJAX front-end skills, and their Node, Express back-end skills.
+I built this app using HTML, CSS, JavaScript, jQuery and AJAX to render tweets on the front end. On the back end, I used Node and Express to run the server and handle the tweet database.
+
+
+## Final Product
+
+Home Page Desktop Version
+!["Screenshot of Home Page Desktop version"]()
+
+Home Page Tablet Version
+!["Screenshot of Home Page Tablet version"]()
+
+Alert for empty tweet
+!["Screenshot of Alert"]()
+
+Alert for more than 140 characters tweet
+!["Screenshot of Alert"]()
+
+
 
 ## Getting Started
 
-1. [Create](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) a new repository using this repository as a template.
-2. Clone your repository onto your local device.
-3. Install dependencies using the `npm install` command.
-3. Start the web server using the `npm run local` command. The app will be served at <http://localhost:8080/>.
-4. Go to <http://localhost:8080/> in your browser.
+Fork or clone this repository to get the files.
+Install dependencies using the npm install command or npm i for short.
+Start the web server using the npm run local command to start nodemon. Alternatively, npm start will start the server without nodemon.
+Go to http://localhost:8080/ in your browser.
+Click the 'Write a Tweet' button to access the new tweet area.
+Start tweeting!
+
 
 ## Dependencies
 
-- Express
-- Node 5.10.x or above
+Express
+Node 5.10.x or above
+Body Parser
+Chance
+md5
+Timeago js
+
+
+## Development Dependencies
+
+nodemon
+
+
+## Features
+
+1. Allows users to send and view tweets.
+2. New tweets section can be toggled to open and close with a smooth animation.
+3. Tweeter is responsive to mobile, tablet, and desktop.
+4. Performs error validation to determine if tweet is over 140 characters or if tweet is empty.
+5. Smooth animations and buttons
+

@@ -1,0 +1,29 @@
+@media screen and (min-width: 1024px) {
+  body {
+    display: flex;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    margin: 7em 1em 0;
+  }
+  
+  .topHeader {
+    width: 50vw;
+    height: 50vh;
+    min-width: 400px;
+    margin-left: 3em;
+    margin-right: 3em;
+    position: sticky;
+    top: 150px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+ .topHeader {
+ padding-top: 150px;
+ }
+}

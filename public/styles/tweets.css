@@ -26,6 +26,9 @@ article#tweet-container footer {
 #name-image span {
   padding-left: 15px;
 }
+
+
+
 .tweet-body {
   margin: 1em;
   border-bottom: 2px #000 solid;
@@ -45,6 +48,6 @@ article#tweet-container footer {
   display: flex;
   color: red;
   border: 1px solid red;
-  width: 30%;
   justify-content: center;
+  text-align: center;
 }
