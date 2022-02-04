@@ -8,16 +8,16 @@ I built this app using HTML, CSS, JavaScript, jQuery and AJAX to render tweets o
 ## Final Product
 
 Home Page Desktop Version
-!["Screenshot of Home Page Desktop version"]()
+!["Screenshot of Home Page Desktop version"](https://github.com/AliHashemi86/tweeter/blob/master/docs/Home-desktop.png)
 
 Home Page Tablet Version
-!["Screenshot of Home Page Tablet version"]()
+!["Screenshot of Home Page Tablet version"](https://github.com/AliHashemi86/tweeter/blob/master/docs/Home-Tablet.png)
 
 Alert for empty tweet
-!["Screenshot of Alert"]()
+!["Screenshot of Alert"](https://github.com/AliHashemi86/tweeter/blob/master/docs/Alert-empty-tweet.png)
 
 Alert for more than 140 characters tweet
-!["Screenshot of Alert"]()
+!["Screenshot of Alert"](https://github.com/AliHashemi86/tweeter/blob/master/docs/Alert-max-character.png)
 
 
 
