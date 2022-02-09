@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
   //method to avoide XSS attack
-  const escape = function (str) {
+  const escape = function(str) {
     let div = document.createElement("div");
     div.appendChild(document.createTextNode(str));
     return div.innerHTML;
@@ -34,7 +34,7 @@ $(document).ready(function() {
 
 
   const renderTweets = function(tweets) {
-
+    $("#tweets").empty();
     for (const tweet of tweets) {
       createTweetElement(tweet);
     }
@@ -45,9 +45,8 @@ $(document).ready(function() {
     event.preventDefault();
 
     const tweet = $(this).serialize();
-    console.log(tweet.length);
-    const tweetLength = tweet.length - 5;
-
+    const tweetLength = $('#tweet-text').val().length;
+    
     if (tweetLength > 140) {
       return $(".error").html(`<p>⚠️  Characters Limit Exceeded! Maximum Character: 140  ⚠️</p>`).slideDown("slow");
     } else if (tweetLength === 0) {
@@ -55,7 +54,10 @@ $(document).ready(function() {
     }
 
 
-    $.post("/tweets", tweet).then(() => loadTweets());
+    $.post("/tweets", tweet).then(() => {
+      loadTweets();
+    });
+
 
     // Reset new-tweet section
     $('#tweet-text').val("");

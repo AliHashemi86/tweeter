@@ -26,4 +26,7 @@
  .topHeader {
  padding-top: 150px;
  }
+ .new-tweet {
+  width: 100%;
+  }
 }

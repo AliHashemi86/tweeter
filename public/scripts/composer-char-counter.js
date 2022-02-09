@@ -2,6 +2,7 @@ $(document).ready(function() {
   $("#tweet-text")
     .on("input", function() {
 
+      //Resize textarea
       this.style.height = "";
       this.style.height = this.scrollHeight + 4 + "px";
 
@@ -12,6 +13,8 @@ $(document).ready(function() {
       // color change
       if (counter.value < 0) {
         $(counter).css("color", "red");
+      } else {
+        $(counter).css("color", "black");
       }
     });
 });

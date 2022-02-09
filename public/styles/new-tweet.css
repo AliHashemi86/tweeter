@@ -1,6 +1,10 @@
 .new-tweet {
-  width: 100%;
-  padding: 3em;
+  width: 90%;
+  padding: 2em 1em;
+}
+
+.new-tweet:hover {
+  box-shadow: 10px 10px 5px rgb(148, 148, 148);
 }
 
 .new-tweet form {
@@ -29,7 +33,7 @@
   border: none;
   border-bottom: 3px #000 solid;
   resize: none;
-  height: 50px;
+  height: 30px;
 }
 
 
